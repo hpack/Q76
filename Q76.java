@@ -13,7 +13,7 @@ public class Q76 {
 		Scanner scanner = new Scanner(System.in); //scanner object
 		double input = scanner.nextDouble();
 		
-		double x = logOfBase(1.05, (input/123.8)) + 2014; //equation
+		double x = logOfBase(1.005, (input/123.8)) + 2014; //equation
 		
 		System.out.println(("The year in which Mexico will reach or exceed the number: ") + x);
 				
